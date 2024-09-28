@@ -17,13 +17,12 @@ import {
   faEnvelope,
   faCopy,
   faArrowUp
-} from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+} from '@fortawesome/free-solid-svg-icons/index';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/index';
 import logoPlaceholder from './Assets/Images/logo-placeholder.png';
 import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
-import { HashRouter } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
